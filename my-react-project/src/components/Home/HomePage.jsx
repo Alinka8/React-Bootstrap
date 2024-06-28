@@ -1,8 +1,8 @@
-// src/components/HomePage.jsx
+// src/components/Common/HomePage.jsx
 import React from "react";
 import { Button, Container, Card, Row, Col, Image } from "react-bootstrap";
+import welcomeImage from "../Home/welcome.jpeg";
 import "./homePage.css";
-import welcomeImage from "../Home/welcome.jpeg"; // Import your image
 
 const HomePage = () => {
   return (
@@ -20,7 +20,9 @@ const HomePage = () => {
               <Card.Text>
                 Discover our range of products with amazing features.
               </Card.Text>
-              <Button variant="secondary">Learn More</Button>
+              <Button variant="secondary" className="shop-now-button">
+                Learn More
+              </Button>
             </Card.Body>
           </Card>
         </Col>
@@ -31,7 +33,9 @@ const HomePage = () => {
               <Card.Text>
                 Check out our special offers and save big on your next purchase.
               </Card.Text>
-              <Button variant="secondary">View Offers</Button>
+              <Button variant="secondary" className="shop-now-button">
+                View Offers
+              </Button>
             </Card.Body>
           </Card>
         </Col>

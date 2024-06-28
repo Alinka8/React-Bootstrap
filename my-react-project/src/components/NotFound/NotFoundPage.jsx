@@ -1,8 +1,7 @@
-// src/components/NotFound.jsx
 import React from "react";
-import { Container, Row, Col, Image, Button } from "react-bootstrap";
+import { Container, Row, Col, Image } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-import notFoundImage from "../NotFound/not-found.jpeg"; // Replace with an appropriate image
+import notFoundImage from "../NotFound/not-found.jpeg";
 
 const NotFound = () => {
   return (
