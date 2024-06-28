@@ -1,0 +1,12 @@
+/* src/components/NotFound.css */
+.not-found-page {
+  padding: 2rem;
+}
+
+.not-found-page h1 {
+  margin-bottom: 1rem;
+}
+
+.not-found-page p {
+  margin-bottom: 2rem;
+}

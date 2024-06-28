@@ -1,0 +1,14 @@
+/* src/components/HomePage.css */
+.home-page {
+  background-color: #f8f9fa; /* Light gray background */
+  color: #343a40; /* Dark gray text */
+  text-align: center;
+  padding: 2rem;
+  border: 1px solid #dee2e6; /* Border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow */
+}
+
+.shop-now-button {
+  margin-top: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Button shadow */
+}
